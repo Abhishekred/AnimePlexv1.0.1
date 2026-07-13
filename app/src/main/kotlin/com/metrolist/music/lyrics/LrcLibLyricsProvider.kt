@@ -12,7 +12,7 @@ import com.metrolist.music.utils.dataStore
 import com.metrolist.music.utils.get
 
 object LrcLibLyricsProvider : LyricsProvider {
-    override val name = "LrcLib"
+    override val name = "Abhishek"
 
     override fun isEnabled(context: Context): Boolean = context.dataStore[EnableLrcLibKey] ?: true
 

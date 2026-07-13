@@ -15,7 +15,7 @@ import timber.log.Timber
 object PaxsenixLyricsProvider : LyricsProvider {
     private const val TAG = "PaxsenixProvider"
     
-    override val name = "Paxsenix"
+    override val name = "Abhishek"
 
     override fun isEnabled(context: Context): Boolean = context.dataStore[EnablePaxsenixKey] ?: true
 

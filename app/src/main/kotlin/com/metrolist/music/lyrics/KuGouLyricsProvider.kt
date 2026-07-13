@@ -12,7 +12,7 @@ import com.metrolist.music.utils.dataStore
 import com.metrolist.music.utils.get
 
 object KuGouLyricsProvider : LyricsProvider {
-    override val name = "Kugou"
+    override val name = "Abhishek"
     override fun isEnabled(context: Context): Boolean =
         context.dataStore[EnableKugouKey] ?: true
 

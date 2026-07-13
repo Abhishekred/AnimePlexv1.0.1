@@ -12,7 +12,7 @@ import com.metrolist.music.utils.dataStore
 import com.metrolist.music.utils.get
 
 object BetterLyricsProvider : LyricsProvider {
-    override val name = "BetterLyrics"
+    override val name = "Abhishek"
 
     override fun isEnabled(context: Context): Boolean = context.dataStore[EnableBetterLyricsKey] ?: true
 
